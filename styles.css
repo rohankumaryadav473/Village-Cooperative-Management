@@ -1,0 +1,65 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+nav {
+    background: green;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+.form-container {
+    width: 350px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    flex: 1;
+}
